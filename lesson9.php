@@ -90,7 +90,7 @@ class Duck {
 	public $subspecies = 'Anas melleri';
 	public $gender;
 	public $color;
-	public $what_say = 'Quack-quack!';
+	public static $sound = 'Quack-quack!';
 
 	public function sex_change () {
 		if ($this->gender == 'male') {
